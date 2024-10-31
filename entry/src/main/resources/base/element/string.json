@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "FootballDbDemo"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "FootballDbDemo"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "FootballDbDemo"
+    },
+    {
+      "name": "net_permission_reason",
+      "value": "Internet connection is required"
+    }
+  ]
+}
