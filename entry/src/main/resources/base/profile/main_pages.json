@@ -1,6 +1,7 @@
 {
   "src": [
     "pages/Index",
-    "pages/Matches"
+    "pages/Matches",
+    "pages/MatchDetails"
   ]
 }

@@ -35,7 +35,7 @@ export interface Match {
   awayTeam: Team
   score: Score
   odds: Odds
-  referees: Referee[]
+  referees?: Referee[]
 }
 
 export interface Area {
