@@ -1,5 +1,5 @@
 import { Match } from '../models/Matches';
-import { PL_DATA } from '../PL_DATA.ts';
+import { PL_DATA } from '../sampleData/PL_DATA.ts';
 import Repo from '../Repo';
 import { MatchCard } from './components/MatchCard';
 import router from '@ohos.router';

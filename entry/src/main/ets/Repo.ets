@@ -2,9 +2,9 @@ import http from '@ohos.net.http';
 import { Competitions } from './models/Comptetitions';
 import { ApiErrorResponse } from './models/ApiErrorResponse';
 import { Matches } from './models/Matches';
-import { COMPETITION_SAMPLE_DATA } from './COMPTETITIONS_DATA';
-import { PL_DATA } from './PL_DATA.ts';
-import { MATCH_DATA } from './MATCH_DATA';
+import { COMPETITION_SAMPLE_DATA } from './sampleData/COMPTETITIONS_DATA';
+import { PL_DATA } from './sampleData/PL_DATA.ts';
+import { MATCH_DATA } from './sampleData/MATCH_DATA';
 import { MatchDetailsResponse } from './models/MatchDetailsResponse';
 
 
@@ -14,7 +14,7 @@ export default class Repo {
    */
   API_KEY = "ae80a02f254946a8b2af6be56cf63649"
   BASE_URL = "https://api.football-data.org/v4/"
-  //use sample data while developing to avoid rate limit of free tier (100 calls / day)
+  //use sample data while developing to avoid rate limit of free tier (10 calls / minute)
   USE_SAMPLE_DATA = true
 
   async getCompetitions(includeOnlyTierOne: boolean = true): Promise<Competitions> {

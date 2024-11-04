@@ -1,4 +1,4 @@
-import { MatchDetailsResponse } from './models/MatchDetailsResponse';
+import { MatchDetailsResponse } from '../models/MatchDetailsResponse';
 
 export const MATCH_DATA: MatchDetailsResponse = {
   "area": {

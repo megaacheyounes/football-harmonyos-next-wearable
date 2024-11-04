@@ -1,6 +1,6 @@
 
 
-import { Competitions } from "./models/Comptetitions";
+import { Competitions } from "../models/Comptetitions";
 
 
 export const COMPETITION_SAMPLE_DATA: Competitions = {

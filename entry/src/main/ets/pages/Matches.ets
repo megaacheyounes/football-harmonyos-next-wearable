@@ -66,7 +66,6 @@ struct Matches {
   build() {
     Stack() {
 
-
       Column() {
 
         Text(this.competition?.name)

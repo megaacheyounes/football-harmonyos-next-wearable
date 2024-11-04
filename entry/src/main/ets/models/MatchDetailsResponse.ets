@@ -42,24 +42,7 @@ export interface Team {
   formation: string;
   lineup: Bench[];
   bench: Bench[];
-  statistics : Record<string,number>;
-}
-
-export interface Statistics {
-  "corner_kicks": number,
-  "free_kicks": number,
-  "goal_kicks": number,
-  "offsides": number,
-  "fouls": number,
-  "ball_possession": number,
-  "saves": number,
-  "throw_ins": number,
-  "shots": number,
-  "shots_on_goal": number,
-  "shots_off_goal": number,
-  "yellow_cards": number,
-  "yellow_red_cards": number,
-  "red_cards": number
+  statistics: Record<string, number>;
 }
 
 export interface Bench {

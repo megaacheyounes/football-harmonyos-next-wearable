@@ -1,4 +1,4 @@
-import { Matches } from "./models/Matches";
+import { Matches } from "../models/Matches";
 
 export const PL_DATA: Matches = {
   "filters": { "season": "2024" },
