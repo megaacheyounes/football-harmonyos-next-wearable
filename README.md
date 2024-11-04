@@ -1,12 +1,26 @@
 # Football App Demo for HarmonyOS NEXT (ArkTS/ArkUI)
 
-This is a demo project developed for Huawei smartwatches using HarmonyOS NEXT (ArkTS/ArkUI). The app features three main screens to provide users with an easy way to browse through football competitions, view upcoming matches, and explore match details and statistics.
+This is a demo project developed for Huawei smartwatches using HarmonyOS NEXT (ArkTS/ArkUI). The app features three main screens which are football competitions screen, competition upcoming matches, and match details/statistics screen.
 
 ## Features
 
-1. **Competitions Screen**: Displays a list of football competitions such as the Champions League, Premier League, and more.
-2. **Matches Screen**: Shows a list of matches within the selected competition for the next 30 days.
-3. **Match Details Screen**: Provides detailed statistics for a selected finished match, including the final score, number of kicks, and other game stats.
+### Competitions
+
+Displays a list of football competitions such as the Champions League, Premier League, and more.
+
+<img width="400" src=".screenshots/index.png"/>
+
+### Matches
+
+This screen provides a schedule of upcoming matches within the selected competition for the next 30 days. Completed matches are highlighted in green and can be tapped to view match statistics.
+
+<img width="400" src=".screenshots/matches.png"/>
+
+### Match Details
+
+The match details screen shows score and statistics, including metrics like ball possession, offsides, and other stats.
+
+<img width="400" src=".screenshots/match_details.png"/>
 
 ## Prerequisites
 
@@ -37,28 +51,7 @@ This is a demo project developed for Huawei smartwatches using HarmonyOS NEXT (A
 5. **Run the App**:
    - Connect your Huawei smartwatch or use the simulator in DevEco Studio NEXT, then run the app.
 
-## Screenshots
-
-Here are some screenshots to showcase the app’s functionality:
-
-### Competitions Screen
-
-The initial screen displays a list of top-tier football competitions, such as popular leagues and tournaments.
-
-<img width="400" src=".screenshots/index.png"/>
-
-### Matches Screen
-
-This screen provides a schedule of upcoming matches within the selected competition for the next 30 days. Completed matches are highlighted in green and can be tapped to view detailed match information.
-
-<img width="400" src=".screenshots/matches.png"/>
-
-### Match Details Screen
-
-The match details screen offers in-depth statistics, including metrics like ball possession, offsides, and other key game stats.
-
-<img width="400" src=".screenshots/match_details.png"/>
-
+ 
 ## Technologies Used
 
 - **HarmonyOS NEXT**: Huawei's new development platform using ArkTS (based on typescript)

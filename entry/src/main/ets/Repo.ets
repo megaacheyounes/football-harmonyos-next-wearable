@@ -14,7 +14,7 @@ export default class Repo {
    */
   API_KEY = "ae80a02f254946a8b2af6be56cf63649"
   BASE_URL = "https://api.football-data.org/v4/"
-  //use sample data while developing to avoid rate limit of free tier (10 calls / minute)
+  //TODO: use sample data while developing to avoid rate limit of free tier (10 calls / minute)
   USE_SAMPLE_DATA = true
 
   async getCompetitions(includeOnlyTierOne: boolean = true): Promise<Competitions> {
